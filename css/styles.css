@@ -13,11 +13,16 @@
     background-color: red;
     border-radius: 70px;
 }
-.recipe-title {
+.recipe-list-title {
     font-size: 35px;
 }
 /* Recipe Box */
 .recipe-box {
     font-size: 18px;
     font-style: italic;
+}
+
+.recipe-title {
+    font-size: 35px;
+    color: orange;
 }
