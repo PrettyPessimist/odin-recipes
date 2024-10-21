@@ -1,10 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .index-body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.container {   
+    height:auto; width: 70%;
+    padding:50px;
+    border: 10px solid red;
+    margin: 50px 15%;
+    background-image:url("../images/pizza2.jpg");
+    background-size: cover; /* Ensures the image covers the whole element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+.container2 {
+    width: 75%;
+    margin:0 auto;
+    border: 10px solid red;
+    background-color: white;
+    text-align: center;
+    padding:10px;
+}
 /* Index Title */
 #index-title {
-    background-color: rgba(128, 128, 128, 0.3);
-    font-size: 45px;
+    font-size: 70px;
     font-family:'Franklin Gothic Medium', 'Times New Roman', sans-serif;
     font-weight: 900;
 }
@@ -12,15 +35,51 @@
 .pizza-icon {
     background-color: red;
     border-radius: 70px;
+    height:auto; width:75px;
+    padding: -5px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
-.recipe-list-title {
-    font-size: 35px;
+.letter-title{
+    font-size: 75px;
+    color:orangered;
+    border-radius: solid black 10px;
+}
+.rlist-title {
+    font-size: 50px;
 }
 /* Recipe Box */
-.recipe-box {
-    font-size: 18px;
+.rlist-box .rlist {
+    margin-top: -5px;
+    font-size: 20px;
     font-style: italic;
+    text-align:left;
 }
+.rlist {
+    padding-left:35%;
+}
+.pixel-icon {
+    height:auto;
+    width:30px;
+    margin-top:5px;
+    margin-left:7px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+/* Recipe Format */
+.book-box {
+    height:auto; width: 1000px;
+}
+
+.pageone {
+display:inline-block;
+}
+
+.pagetwo {
+display:inline-block;
+}
+
 
 .recipe-title {
     font-size: 35px;
